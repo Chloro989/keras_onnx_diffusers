@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "onnx-diffusion"
+name = "keras_onnx_diffusion"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
