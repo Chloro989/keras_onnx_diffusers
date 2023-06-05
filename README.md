@@ -34,20 +34,21 @@ onnxは多くのGPUソフトウェアやAPIをサポートしています。
 
 ## 2.Open shell(terminal,command prompt..). Copy and paste and run the following code.
 
-From PowerShell
+### From PowerShell
 ```powershell
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/main/install.sh" -OutFile "install.sh"
 bash ./install.sh
 
 ```
 
-From Linux/Mac Shell 
+### From Linux/Mac Shell 
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/main/install.sh | bash
 
 ```
 
+### Other
 Or make a folder named `keras_onnx_diffusers` on desktop.
 And in `keras_onnx_diffusers`, run `git clone https://github.com/Chloro989/keras_onnx_diffusers.git`.
 
