@@ -44,7 +44,7 @@ bash ./install.sh
 ### From Linux/Mac Shell 
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/master/install.sh | bash
 
 ```
 
