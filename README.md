@@ -36,7 +36,7 @@ onnxは多くのGPUソフトウェアやAPIをサポートしています。
 
 ### From PowerShell
 ```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/main/install.sh" -OutFile "install.sh"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/master/install.sh" -OutFile "install.sh"
 bash ./install.sh
 
 ```
