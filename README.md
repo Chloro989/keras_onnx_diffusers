@@ -24,15 +24,22 @@ onnxは多くのGPUソフトウェアやAPIをサポートしています。
 
 ---
 
-# Installation
+# Installation(English)
 
-1.Run the code below
+1.Install poetry and pyenv
+
+[How to install poetry](https://python-poetry.org/docs/#installation)
+
+[How to install pyenv](https://github.com/pyenv/pyenv#installation)
+
+2.Open shell(terminal,command prompt..)copy paste and run the code below
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/main/install.sh | bash
 
 ```
-# Simple troubleshooting
+
+# Simple Troubleshooting
 
 Windows: Installing Windows Subsystem for Linux (WSL) or Git Bash
 
