@@ -17,27 +17,40 @@ keras_cvのdiffuserは速いのが特徴です。([リンク](https://keras.io/k
 ---
 
 Onnx runtime supports various GPU software and APIs.
-Thus, you can run diffusers on Windows-AMD environment.
+Thus, you can run diffusers on Windows-AMD environment.[URL](https://onnxruntime.ai/)
 
 onnxは多くのGPUソフトウェアやAPIをサポートしています。
-そのため、Windows-AMD環境でもdiffuserを使用することが出来ます。
+そのため、Windows-AMD環境でもdiffuserを使用することが出来ます。[URL](https://onnxruntime.ai/)
 
 ---
 
 # Installation(English)
 
-1.Install poetry and pyenv
+## 1.Install poetry and pyenv
 
 [How to install poetry](https://python-poetry.org/docs/#installation)
 
 [How to install pyenv](https://github.com/pyenv/pyenv#installation)
 
-2.Open shell(terminal,command prompt..)copy paste and run the code below
+## 2.Open shell(terminal,command prompt..). Copy and paste and run the following code.
+
+From PowerShell
+```powershell
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/main/install.sh" -OutFile "install.sh"
+bash ./install.sh
+
+```
+
+From Linux/Mac Shell 
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/main/install.sh | bash
 
 ```
+
+Or make a folder named `keras_onnx_diffusers` on desktop.
+And in `keras_onnx_diffusers`, run `git clone https://github.com/Chloro989/keras_onnx_diffusers.git`.
+
 
 # Simple Troubleshooting
 
