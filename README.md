@@ -48,7 +48,6 @@ If you already have gitbash, run the code below in gitbash.
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/master/install.sh | bash
-
 ```
 
 ### Other
@@ -56,16 +55,29 @@ curl -sSL https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/maste
 Or make a folder named `keras_onnx_diffusers` on desktop.
 And in `keras_onnx_diffusers`, run `git clone https://github.com/Chloro989/keras_onnx_diffusers.git`.
 
-# Execution
+## Making a environment and Installing Packages.
 
-Run this code.
 ```bash
 cd "~/Desktop/keras_onnx_diffusers"
 pyenv install 3.10.6
 pyenv local 3.10.6
 python -m pip install --upgrade pip
-poetry init
 poetry install
+```
+
+## Installing a Model
+
+```bash
+cd "~/Desktop/keras_onnx_diffusers"
+git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 --branch onnx --single-branch model/stable_diffusion_onnx
+```
+
+# Execution
+
+Run this code.
+
+```bash
+cd "~/Desktop/keras_onnx_diffusers"
 poetry run python onnx_diffusion.py
 ```
 
