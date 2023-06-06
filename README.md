@@ -20,7 +20,7 @@ Onnx runtime supports various GPU software and APIs.
 Thus, you can run diffusers on Windows-AMD environment.[URL](https://onnxruntime.ai/)
 
 onnxは多くのGPUソフトウェアやAPIをサポートしています。
-そのため、Windows-AMD環境でもdiffuserを使用することが出来ます。[URL](https://onnxruntime.ai/)
+そのため、Windows-AMD環境でもdiffuserを使用することが出来ます。[リンク](https://onnxruntime.ai/)
 
 ---
 
