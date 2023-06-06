@@ -58,8 +58,9 @@ And in `keras_onnx_diffusers`, run `git clone https://github.com/Chloro989/keras
 
 # Execution
 
-Run this code in the same directory you installed.
+Run this code.
 ```bash
+cd "~/Desktop/keras_onnx_diffusers"
 pyenv install 3.10.6
 pyenv local 3.10.6
 python -m pip install --upgrade pip
