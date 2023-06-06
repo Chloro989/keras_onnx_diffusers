@@ -64,6 +64,7 @@ cd "~/Desktop/keras_onnx_diffusers"
 pyenv install 3.10.6
 pyenv local 3.10.6
 python -m pip install --upgrade pip
+poetry init
 poetry install
 python onnx_diffusion.py
 ```
