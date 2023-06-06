@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [tool.poetry]
 name = "keras_onnx_diffusion"
 version = "0.1.0"
@@ -35,3 +36,42 @@ ipykernel = "^6.23.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+=======
+[tool.poetry]
+name = "keras_onnx_diffusion"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "onnx_diffusion"}]
+
+[tool.poetry.dependencies]
+python = "3.10.6"
+diffusers = "^0.12.1"
+transformers = "^4.29.2"
+onnx = "^1.13.0"
+torch = "2.0.1"
+scipy = "^1.10.1"
+ftfy = "6.1.1"
+omegaconf = "^2.3.0"
+spacy = "^3.5.3"
+accelerate = "^0.19.0"
+opencv-python = "^4.7.0.72"
+controlnet-aux = "^0.0.5"
+ort-nightly-directml = "1.11.0.dev20220320001"
+onnxruntime = "^1.13.0"
+onnxruntime-directml = "^1.15.0"
+pillow = "9.5.0"
+protobuf = "3.20.2"
+numpy = "1.22.3"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+lab = "^7.3"
+ipykernel = "^6.23.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+>>>>>>> 0bcd8614b067ffb69ecc01cbf2e87b5aca5a9342

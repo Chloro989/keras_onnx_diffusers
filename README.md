@@ -1,8 +1,8 @@
 # keras_onnx_diffusers
 
-This repository is for those who want try keras_cv or onnx diffusers.
+This repository is for those who want try ~~keras_cv~~ or onnx diffusers.
 
-このレポジトリはkeras_cvやonnxを使用したい人を対象としています。
+このレポジトリは~~keras_cv~~やonnxを使用したい人を対象としています。~~
 
 ---
 
@@ -24,7 +24,7 @@ onnxは多くのGPUソフトウェアやAPIをサポートしています。
 
 ---
 
-# Installation(English)
+# Local Installation(English)
 
 ## 1.Install poetry and pyenv
 
