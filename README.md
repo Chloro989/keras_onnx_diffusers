@@ -61,8 +61,10 @@ And in `keras_onnx_diffusers`, run `git clone https://github.com/Chloro989/keras
 Run this code in the same directory you installed.
 ```bash
 pyenv install 3.10.6
+pyenv local 3.10.6
 python -m pip install --upgrade pip
 poetry install
+puthon onnx_diffusion.py
 ```
 
 # Simple Troubleshooting
