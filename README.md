@@ -42,9 +42,9 @@ bash ./install.sh
 
 ```
 If this won't work, check the trouble shooting.
+If you already have gitbash, run the code below in gitbash.
 
-
-### From Linux/Mac Shell 
+### From Linux/Mac/GitBash Shell 
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/master/install.sh | bash
