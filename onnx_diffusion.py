@@ -5,7 +5,7 @@ from PIL import Image
 from PIL.PngImagePlugin import PngInfo
 import numpy as np
 import matplotlib.pyplot as plt
-from diffusers import StableDiffusionOnnxPipeline
+from diffusers import OnnxStableDiffusionPipeline
 
 # Check if directory exists
 if os.path.exists("output/"):
@@ -19,7 +19,7 @@ H = 512
 W = 512
 
 # Set Pipe
-pipe = StableDiffusionOnnxPipeline.from_pretrained("model/stable_diffusion_onnx", provider="DmlExecutionProvider")
+pipe = OnnxStableDiffusionPipeline.from_pretrained("model/stable_diffusion_onnx", provider="DmlExecutionProvider")
 
 # Negative Prompt
 NP = ("NSFW,watermark,bad face,bad hand,bad face shape,extra hands,extra fingers,bad arm,extra arms,missing leg,detached arm,"
