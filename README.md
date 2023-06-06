@@ -118,6 +118,8 @@ Run this code.
 cd "~/Desktop/keras_onnx_diffusers"
 poetry run python onnx_diffusion.py
 ```
+If you wish, you can run from jupyter lab(There is a ipynb file).
+(Don't forget to create a kernel for the environment you made.)
 
 # Simple Troubleshooting
 
