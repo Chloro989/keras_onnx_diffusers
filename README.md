@@ -66,7 +66,7 @@ pyenv local 3.10.6
 python -m pip install --upgrade pip
 poetry init
 poetry install
-python onnx_diffusion.py
+poetry run python onnx_diffusion.py
 ```
 
 # Simple Troubleshooting
