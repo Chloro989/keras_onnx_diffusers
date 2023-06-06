@@ -2,11 +2,12 @@
 
 This repository is for those who want try ~~keras_cv~~ or onnx diffusers.
 
-このレポジトリは~~keras_cv~~やonnxを使用したい人を対象としています。~~
+このレポジトリは~~keras_cv~~やonnxを使用したい人を対象としています。
 
 ---
 
-Keras_cv provides a unique and fast diffuser.([URL](https://keras.io/keras_cv/))
+
+Keras_cv provides a unique and fast diffuser.([link](https://keras.io/keras_cv/))
 
 Also check out this:[High-performance image generation using Stable Diffusion in KerasCV](https://keras.io/guides/keras_cv/generate_images_with_stable_diffusion/)
 
@@ -17,14 +18,20 @@ keras_cvのdiffuserは速いのが特徴です。([リンク](https://keras.io/k
 ---
 
 Onnx runtime supports various GPU software and APIs.
-Thus, you can run diffusers on Windows-AMD environment.[URL](https://onnxruntime.ai/)
+**Thus, you can run diffusers on Windows-AMD environment.[link](https://onnxruntime.ai/)**
 
 onnxは多くのGPUソフトウェアやAPIをサポートしています。
-そのため、Windows-AMD環境でもdiffuserを使用することが出来ます。[リンク](https://onnxruntime.ai/)
+**そのため、Windows-AMD環境でもdiffuserを使用することが出来ます。[リンク](https://onnxruntime.ai/)**
 
 ---
 
 # Local Installation(English)
+
+## **Impotant messages here**
+
+### **⚠️Don't Skip a Step!⚠️**
+
+### **As of 2023/06/06, This Repo Only Suppots Windows Users.**
 
 ## 1.Install poetry and pyenv
 
@@ -37,12 +44,12 @@ onnxは多くのGPUソフトウェアやAPIをサポートしています。
 ### From PowerShell
 
 ```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/master/install.sh" -OutFile "install.sh"
-bash ./install.sh
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/master/install.sh" -OutFile "install.ps1"
+powershell ./install.ps1
 
 ```
 If this won't work, check the trouble shooting.
-If you already have gitbash, run the code below in gitbash.
+If you already have gitbash, you may run the code below in gitbash.
 
 ### From Linux/Mac/GitBash Shell 
 
@@ -71,6 +78,37 @@ poetry install
 cd "~/Desktop/keras_onnx_diffusers"
 git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 --branch onnx --single-branch model/stable_diffusion_onnx
 ```
+## Installing ORT-Nightly
+
+### 1. Go to this page:[link](https://aiinfra.visualstudio.com/PublicPackages/_artifacts/feed/ORT-Nightly/PyPI/ort-nightly-directml/overview/1.16.0.dev20230601002)
+
+### 2. Download GPU Support
+
+#### Windows
+
+![image](https://github.com/Chloro989/keras_onnx_diffusers/assets/84625053/3c50d55e-92ce-4acf-b289-06ec715f7542)
+
+#### Linux/Mac
+
+🚧I don't know🚧
+
+### 3. Open PowerShell/CommandPrompt e.t.c and run command
+
+(The code is not copy and patseable, you need to change it by yourself)
+
+```bash
+cd "~/Desktop/keras_onnx_diffusers"
+poetry run pip install "C:\your\path\to\ort_nightly_directml-X.XX.X.devSOMEKINDOFDATE-cp310-cp310-win_amd64.whl" --force-reinstall
+```
+
+For example, in my case, I download "ort_nightly_directml-1.16.0.dev20230601002-cp310-cp310-win_amd64.whl" in "C:\Users\Chloro989\Downloads' . So I will run 
+
+```bash
+cd "~/Desktop/keras_onnx_diffusers"
+poetry run pip install "C:\Users\Chloro989\Downloads\ort_nightly_directml-1.16.0.dev20230601002-cp310-cp310-win_amd64.whl" --force-reinstall
+```
+
+in my powershell.
 
 # Execution
 
