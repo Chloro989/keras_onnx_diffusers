@@ -1,9 +1,7 @@
-import random
 import datetime
 import os
 from PIL import Image
 from PIL.PngImagePlugin import PngInfo
-import numpy as np
 import matplotlib.pyplot as plt
 from diffusers import OnnxStableDiffusionPipeline
 
