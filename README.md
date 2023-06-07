@@ -44,6 +44,7 @@ onnxは多くのGPUソフトウェアやAPIをサポートしています。
 ### From PowerShell
 
 ```powershell
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Chloro989/keras_onnx_diffusers/master/install.sh" -OutFile "install.ps1"
 powershell ./install.ps1
 
@@ -154,3 +155,9 @@ macOS/Linux: macOSとLinuxでは、通常curlとbashはデフォルトでイン�
 
     Windows: Windows Subsystem for Linux (WSL) または Git Bash をインストールします。
     macOS/Linux: curlやbashがインストールされていない場合、システムのパッケージマネージャー（macOSではbrew、多くのLinuxディストリビューションではapt）を使用してインストールします。
+
+# LICENSE
+
+- Used diffusers [link](https://github.com/huggingface/diffusers)
+- Used some of the cocepts of OnnxDiffusersUI [link](https://github.com/azuritecoin/OnnxDiffusersUI)
+- Used some of the code from Stable-Diffusion-With-Keras [link](https://github.com/acfilok96/Stable-Diffusion-With-Keras)
